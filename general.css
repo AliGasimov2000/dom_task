@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration-line: none;
+}
+
+main {
+    background-image: url("https://s3-alpha-sig.figma.com/img/0fe5/59b5/92404e3cffe33e768062dc2ed0732c3d?Expires=1700438400&Signature=YDEd~q71aT89xx09DcDtGhKDNezvBVu4g7ap1tR9sfbIU8fXazqGLUHykks~8X4cjp08sXzGaYH2BV1G6ZwjaUPMouP7p-qpQw9uKo~ZpgHQG2xMS4TvLdkUEly7jcG621dhOu-y8-haA3yQpqq9qvnkCTTEe5rr7UOiO1UAoBO0LguKyLDHPJBIBZtEporaNBHkdfEQjAZ7TEkQJZeDy36VHxkkpF7Oec9xzTLknboIuhkIAebgb2nHp0QbjtssXTOkWYPZrnCYjZiP2ieUc0xP5ffSB6lHfIu8KV2aERMnHgzwhYGdyMoym4RtrE2NO5lPDcWESHsJbM4Le0vwTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.social__networks{
+    position: relative;
+}
+form{
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    right: 0;
+    top: 56%;
+}

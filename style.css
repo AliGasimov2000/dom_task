@@ -1,0 +1,144 @@
+:root{
+    --text-color: var(--grey-600, #6E7491);
+    --p-color: var(--grey-400, #7C8DB0);
+}
+
+.header__div {
+    background-color: #605DEC;
+}
+
+.header_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+}
+
+.header__button {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px;
+}
+
+.header__list ul {
+    gap: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#mobile_nav {
+    display: flex;
+    flex-direction: column;
+}
+
+ul li:hover {
+    cursor: pointer;
+    color: #605DEC;
+}
+
+ul button {
+    border-style: none;
+    background-color: #605DEC;
+    padding: 16px 20px;
+    color: #fff;
+}
+
+.section__hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+    padding-bottom: 44px;
+}
+
+.section__hero h1 {
+    text-align: center;
+    font-size: 96px;
+    width: 600px;
+    color: #605DEC;
+    font-family: "Nunito Sans";
+}
+
+.rota__way {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.fly {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+}
+
+.fly input {
+    border-style: none;
+}
+
+.rota__way button {
+    display: inline-block;
+    background-color: #605DEC;
+    color: #fff;
+    padding: 10px 20px;
+    border-style: none;
+}
+.btn{
+    background-color: #605DEC;
+    max-width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.btn button{
+    background-color: #605DEC;
+    color: #fff;
+}
+
+form{
+    display: none;
+    border: 1px solid gray;
+    box-shadow: #6E7491;
+    font-family: "Nunito Sans";
+    width: 528px;
+    padding: 40px;
+}
+form.active{
+    display: inline-block;
+}
+h3{
+    color: var(--text-color);
+}
+form p{
+   color: var(--p-color);
+}
+form input{
+    padding: 12px 20px;
+    margin: 12px 0
+
+}
+form label{
+    color: #6E7491;
+}
+
+form button{
+    font-size: 18px;
+    border-style: none;
+    background-color: #fff;
+}
+
+.link{
+    border: 1px solid #605DEC;
+    margin-top: 12px;
+    padding: 12px 5px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    width: 100%;
+}
