@@ -1,6 +1,6 @@
 let btn = document.getElementById("#mobile__nav")
 let form = document.querySelector("form")
-let btn2 = document.getElementsByClassName("remove")
+let btn2 = document.querySelector(".remove")
 
 btn.addEventListener("click", () => {
     form.classList.add("active")
